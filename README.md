@@ -8,7 +8,7 @@ This project involves **exploratory data analysis (EDA)** and **report building*
 - Generated Key Performance Indicators (KPIs) like total sales, average price, and sold items
 - Identified top-performing products, regions, and categories
 - Visualized trends across time, geography, and product hierarchy
-- [Build a coprehensive analysis report](https://github.com/dharmeshrohit/SQL-Data-Analytics-Project/blob/main/docs/Bike%20sales%20analysis%20report.pdf)
+- [Build a comprehensive analysis report](https://github.com/dharmeshrohit/SQL-Data-Analytics-Project/blob/main/docs/Bike%20sales%20analysis%20report.pdf)
 
 Tools used: **PostgreSQL**, **Power BI**, **PowerPoint**
 
@@ -25,3 +25,40 @@ Data: <br>
 - `gold.fact_sales.csv`
 
 ---
+## Exploratory Data Analysis
+ Date range of the data: "2010-12-29“ to "2014-01-28“
+### Key Performance Indicators (KPIs)
+![KPIs](docs/images/KPIs.png)
+ - The business generated $29.35 million in revenue, with over 60,420 products sold.
+ - A total of 60,379 transactions were recorded, placed by approximately 18,484 unique customers.
+ - The average price per item across all sales is $486.11, indicating a mid-to-premium product 
+range.
+
+### Geographic Sales Distribution:
+![Sales by Country](docs/images/Sales%20by%20Country.png)
+- The United States ($9.16M) and Australia 
+($9.06M) are the top-performing markets, 
+together contributing over 60% of total sales.
+ - The United Kingdom ($3.39M), Germany 
+($2.89M), and France ($2.64M) show strong mid
+tier performance.
+- Canada ($1.98M) presents potential for growth.
+- Around $230K worth of sales have no country 
+associated, indicating data quality issues or 
+unclassified records.
+- Recommendation:Prioritize marketing efforts in 
+the US and Australia, and investigate the “n/a” 
+country data for cleanup.
+- Other countries like Canada (1,571) and the "n/a" group (337) trail behind.
+
+### Sales by Category & Subcategory
+<p float="left">
+  <img src="docs/images/Sales%20by%20category%20(Matrix).png" width="300" />
+  <img src="docs/images/Sales%20by%20Category%20(Donut).png" width="350" />
+</p>
+
+- Bikes are the clear leader, accounting for $28.31M in revenue. 
+96.46% of total sales.
+- Accessories and Clothing contribute $699.9K and $339.7K, 
+respectively, suggesting potential for growth through bundling or 
+promotions.
