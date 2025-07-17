@@ -54,7 +54,7 @@ country data for cleanup.
 ### Sales by Category & Subcategory
 <p float="left">
   <img src="docs/images/Sales%20by%20category%20(Matrix).png" width="300" />
-  <img src="docs/images/Sales%20by%20Category%20(Donut).png" width="350" />
+  <img src="docs/images/Sales%20by%20Category%20(Donut).png" width="370" />
 </p>
 
 - Bikes are the clear leader, accounting for $28.31M in revenue. 
@@ -62,3 +62,38 @@ country data for cleanup.
 - Accessories and Clothing contribute $699.9K and $339.7K, 
 respectively, suggesting potential for growth through bundling or 
 promotions.
+
+### Sales Trend by Year (2010–2014)
+![Sales by Year](docs/images/Sales%20by%20Year.png)
+- Sales began in 2010 at $43K, marking the start of operations.
+- In 2011, sales jumped to $7.08M, showing strong early growth.
+- In 2012, there was a slight dip to $5.84M, possibly due to market saturation or seasonal 
+changes.
+- A major spike occurred in 2013, reaching $16.35M, the highest on record — more than 2.5x
+ growth from 2012.
+- 2014shows only $45K in sales, indicating the year was either incomplete in the data or 
+represents a shutdown/transition period.
+---
+### Recommendations Summary
+1. Diversify Product Portfolio to Reduce Risk*
+    - While the Bikes category contributes 96% of total sales, this over-reliance poses a significant business risk. If market demand shifts, supply issues arise, or competition increases, the impact could be severe.
+    - Invest in growing Accessories and Clothing through product innovation, better positioning, and 
+    targeted promotions.
+    - Explore customer bundle behavior to understand what complementary products can be cross
+    sold or upgraded.
+    - Launch seasonal or trend-based collections to stimulate demand outside core bike sales.
+    - Diversifying revenue streams will stabilize the business and create more resilience in the long 
+    term.
+2. Prioritize Top Markets
+    - The United States and Australia contribute >60% of total revenue.
+    - Increase targeted advertising, partnerships, and stock availability in these regions.
+3. Improve Data Quality
+    - Resolve "n/a" entries in country and product fields (~$230K in sales, 871 items).
+    - Clean, complete data improves analytics, targeting, and reporting accuracy.
+4. Plan for Seasonal Peaks
+    - Sales peaked massively in 2013 ($16.35M) after a dip in 2012.
+    - Investigate what drove this growth (e.g., campaigns, launches) and replicate the strategy during 
+    future seasons.
+ 5. Boost Cross-Selling Opportunities
+    - Low accessory and clothing sales suggest missed cross-sell potential.
+    - Promote kits, bundles, or checkout suggestions to raise accessory sales per order
