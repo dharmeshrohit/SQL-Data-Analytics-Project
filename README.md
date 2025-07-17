@@ -74,6 +74,6 @@ changes.
 - 2014shows only $45K in sales, indicating the year was either incomplete in the data or 
 represents a shutdown/transition period.
 
-### [Full Analysis Report]()
+### [Full Analysis Report](https://github.com/dharmeshrohit/SQL-Data-Analytics-Project/blob/main/docs/Bike%20sales%20analysis%20report.pdf)
 ---
 [Dharmesh Rohit](https://github.com/dharmeshrohit)
